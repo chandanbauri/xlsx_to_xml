@@ -1,0 +1,10 @@
+/target
+
+*.xlsx
+
+main.py
+
+venv
+
+*.xlsx#
+.pypirc

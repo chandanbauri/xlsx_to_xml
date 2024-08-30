@@ -1,0 +1,22 @@
+[build-system]
+requires = ["maturin"]
+build-backend = "maturin"
+
+[project]
+name = "xlsx_to_xml"
+version = "0.1.6"
+description = "A Python library for converting XLSX files to XML using Rust."
+authors = [{name = "Chandan Bauri", email = "chandanbauri441@gmail.com"}]
+readme = "README.md"
+readme-content-type = "text/markdown"
+license = {file = "LICENSE"}
+dynamic = ["dependencies"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Rust",
+    "Operating System :: OS Independent",
+]
+requires-python = ">=3.6"
+
+[tool.maturin]
+# Additional Maturin-specific configurations can go here.

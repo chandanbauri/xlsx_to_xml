@@ -1,0 +1,19 @@
+[package]
+name = "xlsx_to_xml"
+version = "0.1.7"
+authors = ["Chandan Bauri <chandanbauri441@gmail.com>"]
+edition = "2021"
+description = "A Rust library for converting XLSX files to XML."
+license = "MIT"
+
+[lib]
+name = "xlsx_to_xml"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = { version = "0.19", features = ["extension-module"] }
+calamine = "0.16.0"
+quick-xml = "0.25.0"
+
+[package.metadata.pyo3]
+name = "xlsx_to_xml"
